@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("../Fonts/HelveticaLTStd-LightCond.woff") format("woff"),
+        url("../Fonts/HelveticaLTStd-LightCond.woff2") format("woff2"),
+        url("../Fonts/HelveticaLTStd-LightCond.otf"),
+        url("../Fonts/HelveticaLTStd-LightCond.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "HelveticaBold";
+    src: url("../Fonts/HelveticaLTStd-Bold.woff") format("woff"),
+        url("../Fonts/HelveticaLTStd-Bold.woff2") format("woff2"),
+        url("../Fonts/HelveticaLTStd-Bold.otf"),
+        url("../Fonts/HelveticaLTStd-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("../Fonts/MyriadPro-Regular.woff") format("woff"),
+        url("../Fonts/MyriadPro-Regular.woff2") format("woff2"),
+        url("../Fonts/MyriadPro-Regular.otf"),
+        url("../Fonts/MyriadPro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SansationBold";
+    src: url("../Fonts/SansationBold.woff") format("woff"),
+        url("../Fonts/SansationBold.woff2") format("woff2"),
+        url("../Fonts/SansationBold.otf"),
+        url("../Fonts/SansationBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SansationRegular";
+    src: url("../Fonts/SansationRegular.woff") format("woff"),
+        url("../Fonts/SansationRegular.woff2") format("woff2"),
+        url("../Fonts/SansationRegular.otf"),
+        url("../Fonts/SansationRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "NEOTERICBold";
+    src: url("../Fonts/NEOTERICBold.woff") format("woff"),
+        url("../Fonts/NEOTERICBold.woff2") format("woff2"),
+        url("../Fonts/NEOTERICBold.otf"),
+        url("../Fonts/NEOTERICBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+
+

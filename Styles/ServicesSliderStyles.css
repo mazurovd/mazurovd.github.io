@@ -1,0 +1,80 @@
+.ServleftAnim {
+    animation: ServSlide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+.ServrightAnim {
+    animation: ServSlide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+.ServleftAnimK {
+    animation: ServSlide-in-leftK 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+.ServrightAnimK {
+    animation: ServSlide-in-rightK 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+:root{
+    --widthL;
+    --widthR;
+}
+
+@keyframes ServSlide-in-right {
+    0% {
+        transform: translateX(0);
+        opacity: 1; /*0*/
+    }
+
+    100% {
+        transform: translateX(var(--widthR));
+        opacity: 1;
+    }
+}
+
+@keyframes ServSlide-in-rightK {
+    0% {
+        transform: translateX(0);
+        opacity: 1; /*0*/
+    }
+
+    100% {
+        transform: translateX(var(--widthR));
+        opacity: 0;
+    }
+}
+
+@keyframes ServSlide-in-left {
+    0% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(var(--widthL));
+        opacity: 1;
+    }
+}
+
+@keyframes ServSlide-in-leftK {
+    0% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(var(--widthL));
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

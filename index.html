@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Company</title>
+    <link rel="shortcut icon" href="images/LOGOpage.png" class="rel">
+    <link rel="shortcut icon" href="images/LOGOpage.png" class="rel">
+    <link rel="stylesheet" href="Styles/FontStyle.css">
+    <link rel="stylesheet" href="Styles/normilize.css">
+    <link rel="stylesheet" href="Styles/styles.css"> </head>
+
+<body>
+    <main>
+        <header>
+            <div class="header_top"> <img src="images/LOGO.png" alt="" class="logotype">
+                <div class="header_top-elems">
+                    <div class="menu">
+                        <ul class="menu_items">
+                            <li class="menu_item"><a href="#About" class="menu_item-link">About</a></li>
+                            <li class="menu_item"><a href="#services" class="menu_item-link">Services
+                                </a></li>
+                            <li class="menu_item"> <a href="#feedback" class="menu_item-link">
+                                    Feedback
+                                </a> </li>
+                            <li class="menu_item"> <a href="#Clients" class="menu_item-link">
+                                    Clients
+                                </a> </li>
+                            <li class="menu_item"> <a href="#Quieries" class="menu_item-link">
+                                    Contract
+                                </a> </li>
+                            <li class="menu_item menu_item-link down_listParent">Pages*
+                                <div class="down_list">
+                                    <ul class="down_list-ul">
+                                        <li> <a class="down_list-ul_a down_list-li" target="_blank" href="https://www.genecards.org/cgi-bin/carddisp.pl?gene=PAGE1">
+                                            Page 1
+                                        </a></li>
+                                        <li> <a class="down_list-ul_a down_list-li" target="_blank" href="https://www.genecards.org/cgi-bin/carddisp.pl?gene=PAGE2">
+                                            Page 2
+                                        </a></li>
+                                        <li> <a class="down_list-ul_a down_list-li" target="_blank" href="https://www.genecards.org/cgi-bin/carddisp.pl?gene=PAGE3">
+                                            Page 3
+                                        </a></li>
+                                        <li> <a class="down_list-ul_a down_list-li" target="_blank" href="https://www.genecards.org/cgi-bin/carddisp.pl?gene=PAGE4">
+                                            Page 4
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="menu_bar"><i class="fas fa-bars" onclick="OpenCloseMenu()"></i></div>
+                    </div>
+                    <div class="soc_links">
+                        <a href="https://www.facebook.com/" class="fb-link soc_link" target="_blank"><img src="images/fb_icon.png" alt=""></a>
+                        <a href="https://twitter.com/" class="tw-link soc_link" target="_blank"><img src="images/tw_icon.png" alt=""></a>
+                        <a href="https://www.google.com/" class="g+-link soc_link" target="_blank"><img src="images/g+_icon.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="header_slider">
+                <div class="header_slider-items"> <img src="images/slick_arrow-R.png" alt="" class="header_slider-items_slick_btn-R" onclick="changeSlide(1)"> <img src="images/slick_arrow-L.png" alt="" class="header_slider-items_slick_btn-L" onclick="changeSlide(-1)">
+                    <div class="header_slider-item active">
+                        <div class="header_slider-item_content">
+                            <div class="slider_title">The Best Services</div>
+                            <div class="slider_text">We provide the best services in the world. We provide the best services in the world. We provide the best services in the world</div> <span class="slider_button">Hire us </span> </div>
+                    </div>
+                    <div class="header_slider-item">
+                        <div class="header_slider-item_content">
+                            <div class="slider_title">The Best Workers</div>
+                            <div class="slider_text">We provide the best Workers in the world. We provide the best Workers in the world. We provide the best Workers in the world</div> <span class="slider_button">Hire us </span> </div>
+                    </div>
+                    <div class="header_slider-item">
+                        <div class="header_slider-item_content">
+                            <div class="slider_title">The Best Quality</div>
+                            <div class="slider_text">We provide the best Quality in the world. We provide the best Quality in the world. We provide the best Quality in the world</div> <span class="slider_button">Hire us </span> </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="HireUs-Modal">
+            <div class="HireUs-Modal_content"> <span class="Hire_modal_close">&times;</span> Write your name and phone and our man call you soon.
+                <form action="#" class="HireUs-Modal_content-form">
+                    <input type="text" class="HireUs-Modal_content-name" placeholder="Your name">
+                    <input type="tel" class="HireUs-Modal_content-number" placeholder="Your number">
+                    <input type="submit" class="HireUs-Modal_content-submit" value="Send"> </form>
+            </div>
+        </div>
+        <div class="readMore_Modal">
+            <div class="readMore_Modal-content"> <span class="modal_close">&times;</span>
+                <div class="readMore_Modal-title about_content-title">More about the company</div>
+                <div class="readMore_Modal-text about_content-text">
+                    <p class="readMore_Modal-text_part1"> In cooperation with iconic architectural firms, the GC builds residential quarters with premises for commercial infrastructure on the ground floors, underground parking lots and linear parking lots, kindergartens, schools and private courtyards. Each project has its own name, each has a unique approach to the environment, the design of public spaces, engineering and planning solutions, and landscaping. But there is something in common that unites all projects of the company and distinguishes them from competitors. </p>
+                    <p class="readMore_Modal-text_part2"> In cooperation with iconic architectural firms, the GC builds residential quarters with premises for commercial infrastructure on the ground floors, underground parking lots and linear parking lots, kindergartens, schools and private courtyards. Each project has its own name. </p>
+                </div>
+            </div>
+        </div>
+        <section class="about" id="About"> <img src="images/About-man&pen.png" alt="" class="about-image">
+            <div class="about_content">
+                <h2 class="about_content-title">A little about us</h2> <span class="about_bottomLine">
+                    <span class="about_bottomLine1"></span> <span class="about_bottomLine2"></span> <span class="about_bottomLineW1"></span> <span class="about_bottomLineW2"></span> </span>
+                <div class="about_content-text">
+                    <p class="about_content-text_part1">We are a company based in india with the motto “Digitalally Designed India’ We are a company based in india with the motto “Digitalally Designed India’ We are a company basad in india with the motto “Digitalally Designed India’: </p>
+                    <p class="about_content-text_part2">We are a company basad in india with the motto “Digitalally Designed India. We are a company based in india with the motto “Digitalally Designed India’: We are a company based in India with the motto “Digitalally Designed India’. We are a company based in india with the motto "Digitalally Designed India” </p>
+                </div> <span class="about_content-button">read more details</span> </div>
+        </section>
+        <section class="services" id="services">
+            <div class="services_title">
+                <div class="services_sideLine-L"> <span class="services_thinLine-L"></span> <span class="services_thickLine-L"></span> </div>
+                <h2 class="services_title-text">our services</h2>
+                <div class="services_sideLine-R"> <span class="services_thickLine-R"></span> <span class="services_thinLine-R"></span> </div>
+            </div>
+            <div class="services_items">
+                <div class="services_item ServActiveMedia" id="one">
+                    <div class="services_item-img"> <img src="images/serv-item-img.png" alt="" class="services_item-image"> </div>
+                    <div class="services_item-title">WEB development</div>
+                    <div class="services_item-text">We provide the best world class web development service. We provide the best world class web development service</div> <a class="services_item-button" id="1">More details</a>
+                    <div class="services_item-MoreDetails"> Web development is the work involved in developing a Web site for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development. </div>
+                </div>
+                <div class="services_item" id="two">
+                    <div class="services_item-img"> <img src="images/serv-item-img.png" alt="" class="services_item-image"> </div>
+                    <div class="services_item-title">Security considerations</div>
+                    <div class="services_item-text">As the number of possible tests for even simple software components is practically infinite, all software testing uses some strategy to select </div> <a class="services_item-button" id="2">More details</a>
+                    <div class="services_item-MoreDetails"> The security considerations for performance, capacity and continuity are mainly physical access. You need to make sure an appropriate number of personnel have access to failed systems for example, while balancing this need with the SOX requirements that only authorized administrators have access to systems containing sensitive information. At the very least incidences of down time need to be recorded and documented as to who did what to facilitate the recovery of a system, and that the proper data owners are notified of the action taken. Yet another piece of documentation we know, but with automation systems such as workflow the added burden should be minimal. </div>
+                </div>
+                <div class="services_item" id="three">
+                    <div class="services_item-img"> <img src="images/serv-item-img.png" alt="" class="services_item-image"> </div>
+                    <div class="services_item-title">Software testing</div>
+                    <div class="services_item-text">We provide the best world class web development service. We provide the best world class web development service</div> <a class="services_item-button" id="3">More details</a>
+                    <div class="services_item-MoreDetails"> Unit Testing: This software testing basic approach is followed by the programmer to test the unit of the program. It helps developers to know whether the individual unit of the code is working properly or not. Integration testing: It focuses on the construction and design of the software. You need to see that the integrated units are working without errors or not. System testing: In this method, your software is compiled as a whole and then tested as a whole. This testing strategy checks the functionality, security, portability, amongst others. </div>
+                </div>
+                <div class="services_item" id="four">
+                    <div class="services_item-img"> <img src="images/serv-item-img.png" alt="" class="services_item-image"> </div>
+                    <div class="services_item-title">IT technology</div>
+                    <div class="services_item-text">Hovere we will inside and outside too. We provide the best world class web development service</div> <a class="services_item-button" id="4">More details</a>
+                    <div class="services_item-MoreDetails"> Information technology (IT) is the use of computers to create, process, store, retrieve and exchange all kinds of electronic data and information. IT is typically used within the context of business operations as opposed to personal or entertainment technologies. IT is considered to be a subset of information and communications technology (ICT). An information technology system (IT system) is generally an information system, a communications system, or, more specifically speaking, a computer system – including all hardware, software, and peripheral equipment – operated by a limited group of IT users. </div>
+                </div>
+                <div class="services_item" id="five">
+                    <div class="services_item-img"> <img src="images/serv-item-img.png" alt="" class="services_item-image"> </div>
+                    <div class="services_item-title">My best technology</div>
+                    <div class="services_item-text">Hovere we will inside and outside too. We provide the best world class web development service</div> <a class="services_item-button" id="5">More details</a>
+                    <div class="services_item-MoreDetails"> Best Technology provides industrial parts washers & cleaners, precision cleaning systems, vapor degreasers, passivation systems, electro polishing equipment, parts finishing machines, specialty manufacturing process equipment, and precision cleaning chemistries including environmentally acceptable vapor degreasing solvents. Founded in 1992, Best Technology prides itself in providing not only new and used industrial parts washers but also custom cleaning equipment solutions to meet any of your highly specialized needs. Our selection of stock precision parts processing equipment  </div>
+                </div>
+                <div class="services_item" id="six">
+                    <div class="services_item-img"> <img src="images/serv-item-img.png" alt="" class="services_item-image"> </div>
+                    <div class="services_item-title">Job is a very technology</div>
+                    <div class="services_item-text">Hovere we will inside and outside too. We provide the best world class web development service</div> <a class="services_item-button" id="6">More details</a>
+                    <div class="services_item-MoreDetails"> Our talented teams are early on with some exciting plans to completely reinvent our tech estate; modernising our existing systems and platforms, bringing in modern, cloud-based technologies to design world class digital customer experiences. So what does this mean for you, we hear you say! This is your chance to be part of our plans, have a real say in how we go about it, and take advantage of genuine opportunities to learn and further your career. We're committed to making Very the best possible place to work in tech, so there's never been a better time to join us! </div>
+                </div> <img src="images/leftArrowServ.png" alt="" class="services_items-LeftArrow" onclick="ServChangeSlide(-1)"> <img src="images/rightArrowServ.png" alt="" class="services_items-RightArrow" onclick="ServChangeSlide(1)"> </div>
+            <!-- Modal window -->
+            <div class="services-Modal">
+                <div class="services-Modal_content"> <span class="Serv_modal_close">&times;</span>
+                    <div class="services-moreDetails_title"></div>
+                    <div class="services-moreDetails_text"></div>
+                </div>
+            </div>
+            <!-- Modal window -->
+        </section>
+        <section class="feedback" id="feedback">
+            <div class="feedback_title">
+                <div class="feedback_sideLine-L"> <span class="feedback_thinLine-L"></span> <span class="feedback_thickLine-L"></span> </div>
+                <h2 class="feedback_title-text">feedback</h2>
+                <div class="feedback_sideLine-R"> <span class="feedback_thickLine-R"></span> <span class="feedback_thinLine-R"></span> </div>
+            </div>
+            <div class="feedback_persons">
+                <div class="feedback_persons-quote">
+                    <div class="feedback_persons-quote_text"> I ws always a pleasure doing bussiness with them. I love the quality of work. </div> <span class="feedback_persons-quote_line"></span>
+                    <div class="feedback_persons-quote_controls"> <img src="images/Feed-LLeft_arrow.png" alt="" class="feedback_persons-quote_Lbtn" onclick="FeedChangeSlide(-1)">
+                        <div class="feedback_persons-quote_counter"> <span class="feedback_persons-quote_num">1</span> <span class="feedback_persons-quote_l">/</span> <span class="feedback_persons-quote_numAll">10</span> </div> <img src="images/Feed-left_arrow.png" alt="" class="feedback_persons-quote_Rbtn" onclick="FeedChangeSlide(1)"> </div>
+                </div>
+                <div class="feedback_persons-items">
+                    <div class="feedback_persons-item FeedActiveMedia"> <img src="images/FeedBack_person1.png" alt="" class="feedback_persons-item_img">
+                        <div class="feedback_persons-item_info"> <span class="feedback_persons-item_count">01</span>
+                            <div class="feedback_persons-item_about">
+                                <div class="feedback_persons-item_name">Imran Khan</div>
+                                <div class="feedback_persons-item_proff">CEO, Vesso</div>
+                            </div>
+                            <div class="feedback_persons-item_quote">I was always a pleasure doing bussiness with them. I love the quality of work.</div>
+                        </div>
+                    </div>
+                    <div class="feedback_persons-item"> <img src="images/FeedBack_person2.png" alt="" class="feedback_persons-item_img">
+                        <div class="feedback_persons-item_info"> <span class="feedback_persons-item_count">02</span>
+                            <div class="feedback_persons-item_about">
+                                <div class="feedback_persons-item_name">Ann Batgale</div>
+                                <div class="feedback_persons-item_proff">Secrt, our</div>
+                            </div>
+                            <div class="feedback_persons-item_quote">Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.</div>
+                        </div>
+                    </div>
+                    <div class="feedback_persons-item"> <img src="images/FeedBack_person3.png" alt="" class="feedback_persons-item_img">
+                        <div class="feedback_persons-item_info"> <span class="feedback_persons-item_count">03</span>
+                            <div class="feedback_persons-item_about">
+                                <div class="feedback_persons-item_name">Ban Onbert</div>
+                                <div class="feedback_persons-item_proff">Thinker, BTW</div>
+                            </div>
+                            <div class="feedback_persons-item_quote">It is not our abilities that show what we truly are. It is our choices</div>
+                        </div>
+                    </div>
+                    <div class="feedback_persons-item"> <img src="images/FeedBack_person4.png" alt="" class="feedback_persons-item_img">
+                        <div class="feedback_persons-item_info"> <span class="feedback_persons-item_count">04</span>
+                            <div class="feedback_persons-item_about">
+                                <div class="feedback_persons-item_name">Anya Sokova</div>
+                                <div class="feedback_persons-item_proff">Girl, BTW</div>
+                            </div>
+                            <div class="feedback_persons-item_quote">All we have to decide is what to do with the time that is given to us</div>
+                        </div>
+                    </div>
+                    <div class="feedback_persons-item"> <img src="images/FeedBack_person5.png" alt="" class="feedback_persons-item_img">
+                        <div class="feedback_persons-item_info"> <span class="feedback_persons-item_count">05</span>
+                            <div class="feedback_persons-item_about">
+                                <div class="feedback_persons-item_name">Olya Jesly</div>
+                                <div class="feedback_persons-item_proff">Girl2, BTW</div>
+                            </div>
+                            <div class="feedback_persons-item_quote">Life is like a box of chocolates, you never know what you’re gonna get</div>
+                        </div>
+                    </div>
+                    <div class="feedback_persons-item"> <img src="images/FeedBack_person6.png" alt="" class="feedback_persons-item_img">
+                        <div class="feedback_persons-item_info"> <span class="feedback_persons-item_count">06</span>
+                            <div class="feedback_persons-item_about">
+                                <div class="feedback_persons-item_name">Delly Fair</div>
+                                <div class="feedback_persons-item_proff">Merchandiser</div>
+                            </div>
+                            <div class="feedback_persons-item_quote">The biggest risk is not taking any risk. The only strategy that is guaranteed to fail is not taking risks</div>
+                        </div>
+                    </div>
+                    <div class="feedback_persons-item"> <img src="images/FeedBack_person7.png" alt="" class="feedback_persons-item_img">
+                        <div class="feedback_persons-item_info"> <span class="feedback_persons-item_count">07</span>
+                            <div class="feedback_persons-item_about">
+                                <div class="feedback_persons-item_name">July Ranway</div>
+                                <div class="feedback_persons-item_proff">Servant, Oksord</div>
+                            </div>
+                            <div class="feedback_persons-item_quote">The future belongs to those, who believe in beauty of their dreams </div>
+                        </div>
+                    </div>
+                    <div class="feedback_persons-item"> <img src="images/FeedBack_person8.png" alt="" class="feedback_persons-item_img">
+                        <div class="feedback_persons-item_info"> <span class="feedback_persons-item_count">08</span>
+                            <div class="feedback_persons-item_about">
+                                <div class="feedback_persons-item_name">James Ronfild</div>
+                                <div class="feedback_persons-item_proff">Manager, RTA</div>
+                            </div>
+                            <div class="feedback_persons-item_quote">Chop your own wood and it will warm you twice </div>
+                        </div>
+                    </div>
+                    <div class="feedback_persons-item"> <img src="images/FeedBack_person9.png" alt="" class="feedback_persons-item_img">
+                        <div class="feedback_persons-item_info"> <span class="feedback_persons-item_count">09</span>
+                            <div class="feedback_persons-item_about">
+                                <div class="feedback_persons-item_name">Mr. Brino</div>
+                                <div class="feedback_persons-item_proff">Manager</div>
+                            </div>
+                            <div class="feedback_persons-item_quote">In the End, we will remember not the words of our enemies, but the silence of our friends </div>
+                        </div>
+                    </div>
+                    <div class="feedback_persons-item"> <img src="images/FeedBack_person10.png" alt="" class="feedback_persons-item_img">
+                        <div class="feedback_persons-item_info"> <span class="feedback_persons-item_count">10</span>
+                            <div class="feedback_persons-item_about">
+                                <div class="feedback_persons-item_name">Ms. Greatwood</div>
+                                <div class="feedback_persons-item_proff">Washerman</div>
+                            </div>
+                            <div class="feedback_persons-item_quote">Success is the ability to go from failure to failure without losing your enthusiasm</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Clients" id="Clients">
+            <div class="Clients_title">
+                <div class="Clients_sideLine-L"> <span class="Clients_thinLine-L"></span> <span class="Clients_thickLine-L"></span> </div>
+                <h2 class="Clients_title-text">Clients</h2>
+                <div class="Clients_sideLine-R"> <span class="Clients_thickLine-R"></span> <span class="Clients_thinLine-R"></span> </div>
+            </div>
+            <div class="Clients_items">
+                <div class="Clients_items-topline"></div>
+                <div class="Clients_item"> <img src="images/Adobe.png" alt="" class="Clients_item-img"> </div>
+                <div class="Clients_item"> <img src="images/HCL.png" alt="" class="Clients_item-img"> </div>
+                <div class="Clients_item"> <img src="images/infosys.png" alt="" class="Clients_item-img"> </div>
+                <div class="Clients_item"> <img src="images/invision.png" alt="" class="Clients_item-img"> </div>
+                <div class="Clients_item"> <img src="images/cisco-logo.png" alt="" class="Clients_item-img"> </div>
+                <div class="Clients_item"> <img src="images/behance-2.png" alt="" class="Clients_item-img"> </div>
+                <div class="Clients_item"> <img src="images/Canva-Logo.png" alt="" class="Clients_item-img"> </div>
+                <div class="Clients_item"> <img src="images/insta.png" alt="" class="Clients_item-img"> </div>
+                <div class="Clients_items-bottomline"></div>
+            </div>
+        </section>
+        <section class="Quieries" id="Quieries">
+            <h3 class="Quieries_title"> Any Quieries | Get a quote </h3>
+            <div class="Quieries_content">
+                <div class="Quieries_content-text">
+                    <p>If you have any questions regarding our service or pricing don`t worry</p> Our experts will call you </div>
+                <div class="Quieries_content-form">
+                    <form action="#" class="">
+                        <input type="text" class="Quieries_content-form_name Quieries_content-form_item" placeholder="Your name">
+                        <input type="tel" class="Quieries_content-form_number Quieries_content-form_item" maxlength="11" placeholder="Your number">
+                        <input type="submit" class="Quieries_content-form_submit Quieries_content-form_item" value="Get a call"> </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_links">
+            <div class="footer_links-item">
+                <div class="footer_links_title">Product</div>
+                <div class="footer_links_line"></div>
+                <ul class="footer_links-item_list">
+                    <li><a href="#" class="href">Gost & Governance</a></li>
+                    <li><a href="#" class="href">Securiety & Complaince</a></li>
+                    <li><a href="#" class="href">Product N</a></li>
+                    <li><a href="#" class="href">Pricing & plans</a></li>
+                </ul>
+            </div>
+            <div class="footer_links-item">
+                <div class="footer_links_title">Learn</div>
+                <div class="footer_links_line"></div>
+                <ul class="footer_links-item_list">
+                    <li><a href="#" class="href">Articles</a></li>
+                    <li><a href="#" class="href">Register a demo</a></li>
+                    <li><a href="#" class="href">Webinars</a></li>
+                    <li><a href="#" class="href">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer_links-item">
+                <div class="footer_links_title">Company</div>
+                <div class="footer_links_line"></div>
+                <ul class="footer_links-item_list">
+                    <li><a href="#" class="href">About</a></li>
+                    <li><a href="#" class="href">Careers</a></li>
+                    <li><a href="#" class="href">Partners</a></li>
+                    <li><a href="#" class="href">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_connection">
+            <div class="footer_connection-formCont">
+                <form action="#" class="footer_connection-form">
+                    <input type="email" class="footer_connection-form_email" placeholder="Your email">
+                    <input type="submit" class="footer_connection-form_submit" value="Subscribe"> </form>
+            </div>
+            <div class="footer_connection-socNets">
+                <a href="https://www.facebook.com/" target="_blank" class="footer_connection-socNets_item"> <img src="images/fb%20icon.png" alt="" class="footer_connection-socNets_item_icon"> </a>
+                <a href="https://www.twitter.com/" target="_blank" class="footer_connection-socNets_item"> <img src="images/tw%20icon.png" alt="" class="footer_connection-socNets_item_icon"> </a>
+                <a href="https://www.google.com/" target="_blank" class="footer_connection-socNets_item"> <img src="images/g+%20icon.png" alt="" class="footer_connection-socNets_item_icon"> </a>
+                <a href="https://dribbble.com/" target="_blank" class="footer_connection-socNets_item"> <img src="images/dribbble-ball.png" alt="" class="footer_connection-socNets_item_icon"> </a>
+                <a href="https://www.behance.net/" target="_blank" class="footer_connection-socNets_item"> <img src="images/behance-icon.png" alt="" class="footer_connection-socNets_item_icon"> </a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer_connection-socNets_item"> <img src="images/instagram.png" alt="" class="footer_connection-socNets_item_icon"> </a>
+            </div>
+        </div>
+    </footer>
+        
+    </div>
+    <script src="JS/main.js"></script>
+    <script src="JS/HeaderSlider.js"></script>
+    <script src="JS/Modal.js"></script>
+    <script src="JS/ServicesSlider.js"></script>
+    <script async src="JS/FeedbackSlider.js"></script>
+    <script src="https://kit.fontawesome.com/f4bfe437e5.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
